@@ -21,5 +21,6 @@ class Latihan extends CI_Controller {
 	public function index()
 	{
 		echo "<h1>Ini adalah latihan pertama Saya menggunakan framework CI</h1>";
+        $this->load->view('latihan_massages');
 	}
 }
